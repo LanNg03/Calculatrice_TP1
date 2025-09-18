@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -53,7 +54,7 @@
             android:layout_weight="3"
             android:columnCount="3"
             android:rowCount="4"
-            android:layout_marginEnd="8dp">
+            android:layout_marginEnd="15dp">
 
             <Button android:id="@+id/btn1" android:text="1" style="@style/NumberButtonStyle"/>
             <Button android:id="@+id/btn2" android:text="2" style="@style/NumberButtonStyle"/>
